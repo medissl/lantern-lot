@@ -1,0 +1,30 @@
+{
+  "version": "prototype-1",
+  "economy": {"start_coins": 360, "stock_slots": 18, "shelf_slots": 6, "opening": 40, "raises": [10, 20, 40], "lot_cap": 250, "reserve": 40, "fee_bp": 800, "dealer_bp": 5000, "commission": 40},
+  "items": [
+    {"id": "homewares.enamel_kettle", "name": "Enamel kettle", "category": "homewares", "base": 35, "condition": 8500, "shape": "kettle", "clue": "A maker ring beneath the enamel identifies a household kettle."},
+    {"id": "homewares.folding_stool", "name": "Folding stool", "category": "homewares", "base": 30, "condition": 6000, "shape": "stool", "clue": "Scuffed legs and worn joints: worn condition, still usable."},
+    {"id": "tools.desk_fan", "name": "Tested-safe desk fan", "category": "tools", "base": 50, "condition": 8500, "shape": "fan", "clue": "Metal grille and a tested-safe tag; a workshop household tool."},
+    {"id": "tools.hand_drill", "name": "Repairer's hand drill", "category": "tools", "base": 80, "condition": 8500, "shape": "box", "clue": "Covered crate: hand tools, packed for consignment."},
+    {"id": "homewares.serving_bowl", "name": "Ceramic serving bowl", "category": "homewares", "base": 75, "condition": 10000, "shape": "box", "clue": "Glazed ceramic with a fictional harbor workshop stamp."},
+    {"id": "paper.tram_print", "name": "Framed tram print", "category": "paper", "base": 25, "condition": 8500, "shape": "box", "clue": "A local tram illustration in a sound frame."}
+  ],
+  "starters": [
+    {"id": "practice.cup", "name": "Practice measuring cup", "category": "homewares", "base": 15, "condition": 10000},
+    {"id": "practice.square", "name": "Practice steel square", "category": "tools", "base": 25, "condition": 10000},
+    {"id": "practice.folio", "name": "Practice paper folio", "category": "paper", "base": 35, "condition": 10000}
+  ],
+  "rivals": [
+    {"id": "mei", "name": "Mei", "trait": "Careful repairer · tools", "margin_bp": 3500, "step": 10},
+    {"id": "arif", "name": "Arif", "trait": "Shop supplier · usable stock", "margin_bp": 3000, "step": 20},
+    {"id": "suri", "name": "Suri", "trait": "Set collector · homewares", "margin_bp": 2500, "step": 10}
+  ],
+  "customers": [
+    {"id": "lina", "name": "Lina", "preferences": ["homewares"]},
+    {"id": "tomas", "name": "Tomas", "preferences": ["tools"]},
+    {"id": "bea", "name": "Bea", "preferences": ["paper", "hobbies"]},
+    {"id": "browser_home", "name": "Homewares browser", "preferences": ["homewares"]},
+    {"id": "browser_tools", "name": "Tools browser", "preferences": ["tools"]},
+    {"id": "bargain", "name": "Bargain buyer", "preferences": []}
+  ]
+}
