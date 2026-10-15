@@ -1,0 +1,31 @@
+[gd_scene format=3]
+
+[node name="StatusHUD" type="PanelContainer"]
+mouse_filter = 1
+
+[node name="Row" type="HBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Amounts" type="VBoxContainer" parent="Row"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+
+[node name="Cash" type="Label" parent="Row/Amounts"]
+layout_mode = 2
+text = "360 coins"
+autowrap_mode = 2
+metadata/base_font_size = 22
+
+[node name="Status" type="Label" parent="Row/Amounts"]
+layout_mode = 2
+text = "Stock 3/18 · Display 0/6"
+autowrap_mode = 2
+metadata/base_font_size = 14
+
+[node name="Menu" type="Button" parent="Row"]
+custom_minimum_size = Vector2(72, 48)
+layout_mode = 2
+size_flags_horizontal = 8
+text = "Menu"
