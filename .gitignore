@@ -3,3 +3,5 @@
 /android/
 build/
 *.tmp
+__pycache__/
+art/review/*.import

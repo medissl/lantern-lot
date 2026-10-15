@@ -1,0 +1,31 @@
+{
+  "name": "Lantern Lot · Harbor ledger",
+  "description": "Warm shop ledger paper, enamel teal, walnut joinery and small brass hardware. UI centers stay quiet so integer amounts remain readable.",
+  "colors": {
+    "ledger_paper": "#f7e9cc",
+    "ink": "#282522",
+    "enamel": "#245b59",
+    "enamel_hover": "#2d6b65",
+    "enamel_pressed": "#1b4847",
+    "ivory": "#fff1d6",
+    "walnut": "#573d31",
+    "walnut_pressed": "#3c302a",
+    "brass": "#c59950",
+    "brass_highlight": "#f4d688",
+    "disabled_enamel": "#6d695e"
+  },
+  "text_pairs": [
+    ["ink", "ledger_paper"],
+    ["ivory", "enamel"],
+    ["ivory", "enamel_hover"],
+    ["ivory", "enamel_pressed"],
+    ["ivory", "walnut"],
+    ["ivory", "disabled_enamel"]
+  ],
+  "focus": "Transparent center, outer ink outline, ivory 2px middle outline and brass inner edge; see focus_ring.png.",
+  "ninepatch_margins_px": [8, 8, 8, 8],
+  "content_margins_ui": [12, 8, 12, 8],
+  "font_body": "res://assets/fonts/AtkinsonHyperlegibleNext-Regular.ttf",
+  "font_amounts": "res://assets/fonts/AtkinsonHyperlegibleNext-Semibold.ttf",
+  "font_sign": "res://assets/fonts/Silkscreen-Regular.ttf"
+}

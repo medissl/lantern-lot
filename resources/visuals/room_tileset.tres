@@ -1,0 +1,47 @@
+[gd_resource type="TileSet" load_steps=13 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pixel/environments/floor_0.png" id="F0"]
+[ext_resource type="Texture2D" path="res://assets/pixel/environments/floor_1.png" id="F1"]
+[ext_resource type="Texture2D" path="res://assets/pixel/environments/floor_2.png" id="F2"]
+[ext_resource type="Texture2D" path="res://assets/pixel/environments/floor_3.png" id="F3"]
+[ext_resource type="Texture2D" path="res://assets/pixel/environments/floor_4.png" id="F4"]
+[ext_resource type="Texture2D" path="res://assets/pixel/environments/floor_5.png" id="F5"]
+
+[sub_resource type="TileSetAtlasSource" id="A0"]
+texture = ExtResource("F0")
+texture_region_size = Vector2i(16, 16)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="A1"]
+texture = ExtResource("F1")
+texture_region_size = Vector2i(16, 16)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="A2"]
+texture = ExtResource("F2")
+texture_region_size = Vector2i(16, 16)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="A3"]
+texture = ExtResource("F3")
+texture_region_size = Vector2i(16, 16)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="A4"]
+texture = ExtResource("F4")
+texture_region_size = Vector2i(16, 16)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="A5"]
+texture = ExtResource("F5")
+texture_region_size = Vector2i(16, 16)
+0:0/0 = 0
+
+[resource]
+tile_size = Vector2i(16, 16)
+sources/0 = SubResource("A0")
+sources/1 = SubResource("A1")
+sources/2 = SubResource("A2")
+sources/3 = SubResource("A3")
+sources/4 = SubResource("A4")
+sources/5 = SubResource("A5")
